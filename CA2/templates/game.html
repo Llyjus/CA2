@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <link rel="stylesheet" href="{{ url_for('static', filename = 'game.css') }}" />
+        <script src="{{ url_for('static', filename = 'game.js') }}" type="module">
+        // <link rel="stylesheet" href="../static/game.css" />
+        // <script src="../static/game.js" type="module"></script>
+        </script>
+    </head>
+    <body>
+        <canvas width='1440' height="800" id="mainViewport">
+        </canvas>
+        <canvas width="1440" height="50" id="bar">
+        </canvas>
+    </body>
+</html>
